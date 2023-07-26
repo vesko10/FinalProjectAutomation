@@ -25,7 +25,9 @@ public class TestObject {
     public static final String REPORTS_DIR = TEST_RESOURCES_DIR.concat("reports\\");
 
     @BeforeSuite
-    protected final void setupTestSuite() {
+    protected final void setupTestSuite() throws IOException {
+        cleanDirectory(REPORTS_DIR);
+        cleanDirectory(SCREENSHOTS_DIR);
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
         WebDriverManager.edgedriver().setup();
