@@ -9,30 +9,7 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class SearchFieldTestFromProfilePage {
-    private WebDriver driver;
-
-    @BeforeSuite
-    protected final void setupTestSuite() {
-        WebDriverManager.chromedriver().setup();
-        WebDriverManager.firefoxdriver().setup();
-        WebDriverManager.edgedriver().setup();
-    }
-
-    @BeforeMethod
-    protected final void setUpTest() {
-        this.driver = new ChromeDriver();
-        this.driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-    }
-
-    @AfterMethod
-    protected final void tearDownTest() {
-        if (this.driver != null) {
-            this.driver.quit();
-        }
-    }
+public class SearchFieldTestFromProfilePage extends TestObject {
 
     @DataProvider(name = "getUser")
     public Object[][] getUser() {
@@ -42,13 +19,13 @@ public class SearchFieldTestFromProfilePage {
 
     @Test(dataProvider = "getUser")
     public void testSearchField(String user, String password, String name, String dataForSearchField) {
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.navigateTo();
 
-        Header header = new Header(driver);
+        Header header = new Header(getDriver());
         header.clickLogin();
 
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPage loginPage = new LoginPage(getDriver());
         Assert.assertTrue(loginPage.isUrlLoaded(),"The Login URL is not correct!");
         String signInText = loginPage.getSingInElementText();
         Assert.assertEquals(signInText,"Sign in");
@@ -59,7 +36,7 @@ public class SearchFieldTestFromProfilePage {
 
         header.clickProfileLink();
 
-        ProfilePage profilePage = new ProfilePage(driver);
+        ProfilePage profilePage = new ProfilePage(getDriver());
         Assert.assertTrue(profilePage.isUrlLoaded(),"The Profile URL is not correct!");
         String actualUsername = profilePage.getUsername();
         Assert.assertEquals(actualUsername,name,"Username is incorrect!");
@@ -73,7 +50,7 @@ public class SearchFieldTestFromProfilePage {
 
         header.clickOnTestUserUserUserUser();
 
-        UserPage userPage = new UserPage(driver);
+        UserPage userPage = new UserPage(getDriver());
         Assert.assertTrue(userPage.isUserUrlLoaded(),"The Login URL is not correct!");
         String userNameTitle = userPage.getUsername();
         Assert.assertEquals(userNameTitle,"TestUserUserUserUser");
