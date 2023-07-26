@@ -39,19 +39,19 @@ public class Header {
         wait.until(ExpectedConditions.visibilityOf(dropDownWithUsers));
     }
 
-    public void clickOnFollowButtonForTestUserUserUserUser() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
-        WebElement followButtonTestUserUserUserUser = driver.findElement(By.xpath("(//button[@class='btn btn-primary ng-star-inserted'])[1]"));
-        wait.until(ExpectedConditions.visibilityOf(followButtonTestUserUserUserUser));
-        followButtonTestUserUserUserUser.click();
-    }
+//    public void clickOnFollowButtonForTestUserUserUserUser() {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+//        WebElement followButtonTestUserUserUserUser = driver.findElement(By.xpath("(//button[@class='btn btn-primary ng-star-inserted'])[1]"));
+//        wait.until(ExpectedConditions.visibilityOf(followButtonTestUserUserUserUser));
+//        followButtonTestUserUserUserUser.click();
+//    }
 
-    public void clickOnUnfollowButtonForTestUserUserUserUser() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
-        WebElement unfollowButtonTestUserUserUserUser = driver.findElement(By.xpath("//*[contains(text(),'Unfollow')]"));
-        wait.until(ExpectedConditions.visibilityOf(unfollowButtonTestUserUserUserUser));
-        unfollowButtonTestUserUserUserUser.click();
-    }
+//    public void clickOnUnfollowButtonForTestUserUserUserUser() {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+//        WebElement unfollowButtonTestUserUserUserUser = driver.findElement(By.xpath("//*[contains(text(),'Unfollow')]"));
+//        wait.until(ExpectedConditions.visibilityOf(unfollowButtonTestUserUserUserUser));
+//        unfollowButtonTestUserUserUserUser.click();
+//    }
 
     public void clickOnTestUserUserUserUser() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
@@ -70,6 +70,16 @@ public class Header {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.presenceOfElementLocated(By.id("search-bar")));
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
+    }
+
+    public boolean isDropDownWithUsersVisible() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='dropdown-container']")));
         } catch (Exception e) {
             return false;
         }

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-26T15:34:07 EEST" name="Default Suite" finished-at="2023-07-26T15:34:25 EEST" duration-ms="18075">
+  <suite started-at="2023-07-26T22:44:38 EEST" name="Default Suite" finished-at="2023-07-26T22:45:02 EEST" duration-ms="23478">
     <groups>
     </groups>
-    <test started-at="2023-07-26T15:34:07 EEST" name="FinalProjectAutomation" finished-at="2023-07-26T15:34:25 EEST" duration-ms="18075">
-      <class name="finalProjectTest.SearchFieldTestFromProfilePage">
-        <test-method is-config="true" signature="setupTestSuite()[pri:0, instance:finalProjectTest.SearchFieldTestFromProfilePage@2ddc9a9f]" started-at="2023-07-26T15:34:05 EEST" name="setupTestSuite" finished-at="2023-07-26T15:34:07 EEST" duration-ms="1207" status="PASS">
+    <test started-at="2023-07-26T22:44:38 EEST" name="FinalProjectAutomation" finished-at="2023-07-26T22:45:02 EEST" duration-ms="23478">
+      <class name="finalProjectTest.SearchFieldTestFromNewPostPage">
+        <test-method is-config="true" signature="setupTestSuite()[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f]" started-at="2023-07-26T22:44:37 EEST" name="setupTestSuite" finished-at="2023-07-26T22:44:38 EEST" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestSuite -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:finalProjectTest.SearchFieldTestFromProfilePage@2ddc9a9f]" started-at="2023-07-26T15:34:07 EEST" name="setUpTest" finished-at="2023-07-26T15:34:12 EEST" duration-ms="5500" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f]" started-at="2023-07-26T22:44:38 EEST" name="setUpTest" finished-at="2023-07-26T22:44:42 EEST" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testSearchField(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:finalProjectTest.SearchFieldTestFromProfilePage@2ddc9a9f]" started-at="2023-07-26T15:34:12 EEST" name="testSearchField" data-provider="getUser" finished-at="2023-07-26T15:34:23 EEST" duration-ms="11101" status="PASS">
+        <test-method signature="testSearchField(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f]" started-at="2023-07-26T22:44:42 EEST" name="testSearchField" data-provider="getUser" finished-at="2023-07-26T22:45:00 EEST" duration-ms="18189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchField -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:finalProjectTest.SearchFieldTestFromProfilePage@2ddc9a9f]" started-at="2023-07-26T15:34:23 EEST" name="tearDownTest" finished-at="2023-07-26T15:34:25 EEST" duration-ms="1289" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f]" started-at="2023-07-26T22:45:00 EEST" name="tearDownTest" finished-at="2023-07-26T22:45:02 EEST" duration-ms="1505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchField status=SUCCESS method=SearchFieldTestFromNewPostPage.testSearchField(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="deleteDownloadedFiles()[pri:0, instance:finalProjectTest.SearchFieldTestFromProfilePage@2ddc9a9f]" started-at="2023-07-26T15:34:25 EEST" name="deleteDownloadedFiles" finished-at="2023-07-26T15:34:25 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="deleteDownloadedFiles()[pri:0, instance:finalProjectTest.SearchFieldTestFromNewPostPage@2ddc9a9f]" started-at="2023-07-26T22:45:02 EEST" name="deleteDownloadedFiles" finished-at="2023-07-26T22:45:02 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDownloadedFiles -->
-      </class> <!-- finalProjectTest.SearchFieldTestFromProfilePage -->
+      </class> <!-- finalProjectTest.SearchFieldTestFromNewPostPage -->
     </test> <!-- FinalProjectAutomation -->
   </suite> <!-- Default Suite -->
 </testng-results>

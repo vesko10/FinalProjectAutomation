@@ -1,13 +1,8 @@
 package finalProjectTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import object.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.time.Duration;
 
 public class SearchFieldTestFromHomePage extends TestObject {
 
@@ -45,9 +40,9 @@ public class SearchFieldTestFromHomePage extends TestObject {
         String userNameTitle = userPage.getUsername();
         Assert.assertEquals(userNameTitle,"TestUserUserUserUser");
 
-        userPage.clickOnFollowwButtonForTestUserUserUserUser();
+        userPage.clickOnFollowButtonForTestUserUserUserUser();
 
-        userPage.clickOnUnFollowwButtonForTestUserUserUserUser();
+        userPage.clickOnUnFollowButtonForTestUserUserUserUser();
 
 
     }

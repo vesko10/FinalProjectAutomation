@@ -1,13 +1,8 @@
 package finalProjectTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import object.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.time.Duration;
 
 public class SearchFieldTestFromNewPostPage extends TestObject {
 
@@ -50,8 +45,8 @@ public class SearchFieldTestFromNewPostPage extends TestObject {
         Assert.assertTrue(userPage.isUserUrlLoaded(),"The Login URL is not correct!");
         String userNameTitle = userPage.getUsername();
         Assert.assertEquals(userNameTitle,"TestUserUserUserUser");
-        userPage.clickOnFollowwButtonForTestUserUserUserUser();
-        userPage.clickOnUnFollowwButtonForTestUserUserUserUser();
+        userPage.clickOnFollowButtonForTestUserUserUserUser();
+        userPage.clickOnUnFollowButtonForTestUserUserUserUser();
 
 
     }

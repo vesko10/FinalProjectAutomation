@@ -26,14 +26,14 @@ public class UserPage {
         return username.getText();
     }
 
-    public void clickOnFollowwButtonForTestUserUserUserUser(){
+    public void clickOnFollowButtonForTestUserUserUserUser(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement followButtonTestUserUserUserUser = driver.findElement(By.xpath("//*[contains(text(),'Follow')]"));
         wait.until(ExpectedConditions.visibilityOf(followButtonTestUserUserUserUser));
         followButtonTestUserUserUserUser.click();
     }
 
-    public void clickOnUnFollowwButtonForTestUserUserUserUser(){
+    public void clickOnUnFollowButtonForTestUserUserUserUser(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement unfollowButtonTestUserUserUserUser = driver.findElement(By.xpath("//*[contains(text(),'Unfollow')]"));
         wait.until(ExpectedConditions.visibilityOf(unfollowButtonTestUserUserUserUser));
