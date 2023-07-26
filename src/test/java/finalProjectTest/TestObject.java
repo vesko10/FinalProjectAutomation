@@ -42,10 +42,9 @@ public class TestObject {
     }
 
     @AfterMethod
-    protected final void tearDownTest() {
-        if (this.driver != null) {
-            this.driver.quit();
-        }
+    protected final void tearDownTest(ITestResult testResult) {
+        takeScreenshot(testResult);
+        quitDriver();
     }
 
     @AfterSuite
