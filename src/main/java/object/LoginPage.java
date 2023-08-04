@@ -29,11 +29,13 @@ public class LoginPage {
     }
 
     public void populateUsername(String username){
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement userNameField = driver.findElement(By.id("defaultLoginFormUsername"));
         userNameField.sendKeys(username);
     }
 
     public void populatePassword(String password){
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement passwordField = driver.findElement(By.id("defaultLoginFormPassword"));
         passwordField.sendKeys(password);
     }

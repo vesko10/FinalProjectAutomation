@@ -22,13 +22,13 @@ public class Header {
     }
 
     public void clickProfileLink() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement profileLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-profile")));
         profileLink.click();
     }
 
     public void populateSearchField(String dataForSearchField) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement searchField = wait.until(ExpectedConditions.elementToBeClickable(By.id("search-bar")));
         searchField.sendKeys(dataForSearchField);
     }
