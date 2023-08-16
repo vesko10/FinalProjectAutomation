@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fad81485-7b86-4a7b-98ed-51a355edafcf" name="Changes" comment="Search Field tests DONE">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/object/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestFromHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestFromNewPostPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestFromProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestWithInvalidDataFromHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestWithInvalidDataFromNewPostPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestWithInvalidDataFromProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/SearchFieldTestWithoutLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/TestObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/download/skillo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/Default Suite/FinalProjectAutomation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/Default Suite/FinalProjectAutomation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/Default Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/junitreports/TEST-finalProjectTest.SearchFieldTestFromProfilePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/FinalProjectAutomation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/Default Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/testSearchField.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/object/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/object/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/object/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/object/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/Default Suite/FinalProjectAutomation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/Default Suite/FinalProjectAutomation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/Default Suite/FinalProjectAutomation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/Default Suite/FinalProjectAutomation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/junitreports/TEST-finalProjectTest.SearchFieldTestFromProfilePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/junitreports/TEST-finalProjectTest.SearchFieldTestFromProfilePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/FinalProjectAutomation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/FinalProjectAutomation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/FinalProjectAutomation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/FinalProjectAutomation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-finalProjectTest.SearchFieldTestFromNewPostPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-finalProjectTest.SearchFieldTestFromNewPostPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-finalProjectTest.SearchFieldTestFromProfilePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-finalProjectTest.SearchFieldTestFromProfilePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2T6Mxd9DarEUp1da5HFUiaXdAzI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/FinalProjectAutomation/src/test/resources/reports&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\FinalProjectAutomation\src\main\java\factory" />
+      <recent name="C:\java\FinalProjectAutomation\src\main\java\object" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory" />
+      <recent name="object" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchFieldTestFromHomePage.testSearchField">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="FinalProjectAutomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="FinalProjectAutomation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTestFromHomePage.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sk06_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finalProjectTest" />
+      <option name="MAIN_CLASS_NAME" value="search.SearchFieldTestFromHomePage" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTestFromNewPostPage.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sk06_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finalProjectTest" />
+      <option name="MAIN_CLASS_NAME" value="search.SearchFieldTestFromNewPostPage" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTestFromProfilePage.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sk06_automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="finalProjectTest" />
+      <option name="MAIN_CLASS_NAME" value="search.SearchFieldTestFromProfilePage" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\java\FinalProjectAutomation\src\test\resources\reports" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTestWithInvalidDataFromProfilePage.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sk06_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finalProjectTest" />
+      <option name="MAIN_CLASS_NAME" value="search.SearchFieldTestWithInvalidDataFromProfilePage" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTestWithoutLogin.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sk06_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finalProjectTest" />
+      <option name="MAIN_CLASS_NAME" value="search.SearchFieldTestWithoutLogin" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.SearchFieldTestWithInvalidDataFromProfilePage.testSearchField" />
+      <item itemvalue="TestNG.SearchFieldTestFromHomePage.testSearchField" />
+      <item itemvalue="TestNG.SearchFieldTestFromNewPostPage.testSearchField" />
+      <item itemvalue="TestNG.SearchFieldTestFromProfilePage.testSearchField" />
+      <item itemvalue="TestNG.SearchFieldTestWithoutLogin.testSearchField" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SearchFieldTestFromHomePage.testSearchField" />
+        <item itemvalue="TestNG.SearchFieldTestFromProfilePage.testSearchField" />
+        <item itemvalue="TestNG.SearchFieldTestFromNewPostPage.testSearchField" />
+        <item itemvalue="TestNG.SearchFieldTestWithoutLogin.testSearchField" />
+        <item itemvalue="TestNG.SearchFieldTestWithInvalidDataFromProfilePage.testSearchField" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fad81485-7b86-4a7b-98ed-51a355edafcf" name="Changes" comment="" />
+      <created>1690359324491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690359324491</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Final Task progress">
+      <created>1690373104963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690373104963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final Task progress">
+      <created>1690375037462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690375037462</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Task progress">
+      <created>1690375218503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690375218503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Search Field tests DONE">
+      <created>1690402379060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690402379060</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Search Field tests DONE">
+      <created>1690402401960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690402401960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Search Field tests DONE">
+      <created>1690402415727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690402415727</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Search Field tests DONE">
+      <created>1690402425413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690402425413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Search Field tests DONE">
+      <created>1690824394972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690824394972</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Search Field tests DONE">
+      <created>1690824575335</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690824575335</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Search Field tests DONE">
+      <created>1690909075333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690909075333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Search Field tests DONE">
+      <created>1691163258473</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691163258473</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Search Field tests DONE">
+      <created>1691165985150</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691165985150</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Task progress" />
+    <MESSAGE value="Search Field tests DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Field tests DONE" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/search/SearchFieldTestFromNewPostPage.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
