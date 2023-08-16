@@ -10,8 +10,6 @@ import java.time.Duration;
 
 public class UserPage {
     private final WebDriver driver;
-    private  WebDriverWait wait;
-
     public UserPage(WebDriver driver) {
         this.driver = driver;
     }

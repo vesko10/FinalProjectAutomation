@@ -12,7 +12,6 @@ import java.time.Duration;
 
 public class Header {
     private final WebDriver driver;
-    private  WebDriverWait wait;
     @FindBy(id="nav-link-login")
     private WebElement loginLink;
     @FindBy(id="nav-link-profile")
@@ -27,7 +26,6 @@ public class Header {
     private WebElement postLink;
     public Header(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         PageFactory.initElements(driver,this);
     }
     public void clickLogin(){

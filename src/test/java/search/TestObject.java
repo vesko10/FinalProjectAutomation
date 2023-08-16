@@ -1,4 +1,4 @@
-package finalProjectTest;
+package search;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;

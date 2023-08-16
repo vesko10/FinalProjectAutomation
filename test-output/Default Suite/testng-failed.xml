@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="FinalProjectAutomation(failed)">
     <classes>
-      <class name="finalProjectTest.SearchFieldTestFromNewPostPage">
+      <class name="search.SearchFieldTestFromNewPostPage">
         <methods>
           <include name="deleteDownloadedFiles"/>
           <include name="setUpTest"/>
@@ -11,7 +11,7 @@
           <include name="tearDownTest"/>
           <include name="setupTestSuite"/>
         </methods>
-      </class> <!-- finalProjectTest.SearchFieldTestFromNewPostPage -->
+      </class> <!-- search.SearchFieldTestFromNewPostPage -->
     </classes>
   </test> <!-- FinalProjectAutomation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
